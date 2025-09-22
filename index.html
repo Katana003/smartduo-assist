@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Duo Assist - Professional Virtual Assistant Services</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+    <!-- Loading Overlay -->
+    <div class="loading-overlay" id="loadingOverlay">
+        <div class="spinner"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">Smart Duo Assist</div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Team</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Professional Virtual Assistant Services</h1>
+            <p>Empowering your business with expert administrative support, creative solutions, and seamless productivity</p>
+            <a href="#contact" class="cta-button">Work with Us</a>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title fade-in">Meet Our Team</h2>
+            <div class="about-grid">
+                <div class="about-card fade-in">
+                    <div class="team-image">
+                        <div class="team-avatar">
+                            <i class="fas fa-user-circle"></i>
+                        </div>
+                    </div>
+                    <h3>Katana</h3>
+                    <p class="team-role">Lead Virtual Assistant & Operations Manager</p>
+                    <p>With extensive experience in business administration and project management, Katana leads our operations with precision and dedication. She specializes in streamlining business processes, managing complex schedules, and ensuring seamless client communication.</p>
+                    <div class="team-skills">
+                        <span class="skill-tag">Project Management</span>
+                        <span class="skill-tag">Business Operations</span>
+                        <span class="skill-tag">Client Relations</span>
+                    </div>
+                </div>
+                
+                <div class="about-card fade-in">
+                    <div class="team-image">
+                        <div class="team-avatar">
+                            <i class="fas fa-user-circle"></i>
+                        </div>
+                    </div>
+                    <h3>Maureen</h3>
+                    <p class="team-role">Administrative Specialist & Customer Support</p>
+                    <p>Maureen brings exceptional organizational skills and customer service expertise to Smart Duo Assist. She excels in data management, email coordination, and providing outstanding support to ensure client satisfaction and operational efficiency.</p>
+                    <div class="team-skills">
+                        <span class="skill-tag">Data Management</span>
+                        <span class="skill-tag">Customer Support</span>
+                        <span class="skill-tag">Administrative Tasks</span>
+                    </div>
+                </div>
+                
+                <div class="about-card fade-in">
+                    <div class="team-image">
+                        <div class="team-avatar">
+                            <i class="fas fa-user-circle"></i>
+                        </div>
+                    </div>
+                    <h3>Bokang</h3>
+                    <p class="team-role">Creative Specialist & Digital Marketing</p>
+                    <p>Bokang is our creative powerhouse, bringing innovation and artistic flair to every project. She specializes in content creation, social media management, graphic design, and brand development to help businesses establish a compelling online presence.</p>
+                    <div class="team-skills">
+                        <span class="skill-tag">Content Creation</span>
+                        <span class="skill-tag">Social Media</span>
+                        <span class="skill-tag">Graphic Design</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title fade-in">Our Services</h2>
+            <p class="services-intro fade-in">We offer comprehensive virtual assistant services designed to streamline your business operations and boost productivity. Our expert team handles the tasks that matter, so you can focus on growing your business.</p>
+            
+            <div class="services-grid">
+                <div class="service-card fade-in">
+                    <div class="service-icon">
+                        <i class="fas fa-tasks"></i>
+                    </div>
+                    <h3>Administrative Support</h3>
+                    <p>Streamline your daily operations with professional administrative assistance including email management, scheduling, and organizational tasks.</p>
+                </div>
+                
+                <div class="service-card fade-in">
+                    <div class="service-icon">
+                        <i class="fas fa-share-alt"></i>
+                    </div>
+                    <h3>Social Media Management</h3>
+                    <p>Enhance your online presence with strategic social media management, content creation, and community engagement across all platforms.</p>
+                </div>
+                
+                <div class="service-card fade-in">
+                    <div class="service-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h3>Customer Support</h3>
+                    <p>Provide exceptional customer service with our professional support team handling inquiries, complaints, and customer relationship management.</p>
+                </div>
+                
+                <div class="service-card fade-in">
+                    <div class="service-icon">
+                        <i class="fas fa-keyboard"></i>
+                    </div>
+                    <h3>Data Entry</h3>
+                    <p>Accurate and efficient data entry services to keep your databases updated, organized, and accessible for better business decision-making.</p>
+                </div>
+                
+                <div class="service-card fade-in">
+                    <div class="service-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h3>Research</h3>
+                    <p>Comprehensive market research, competitor analysis, and information gathering to support your business strategies and decision-making processes.</p>
+                </div>
+                
+                <div class="service-card fade-in">
+                    <div class="service-icon">
+                        <i class="fas fa-file-alt"></i>
+                    </div>
+                    <h3>Document Creation</h3>
+                    <p>Professional document creation, formatting, and editing services including reports, presentations, proposals, and business correspondence.</p>
+                </div>
+            </div>
+
+            <!-- Custom Solution Section -->
+            <div class="custom-solution fade-in">
+                <div class="custom-solution-content">
+                    <h3>Need a Custom Solution?</h3>
+                    <p>We understand that every business is unique. Let's discuss your specific needs and create a tailored virtual assistant package just for you.</p>
+                    <a href="#contact" class="quote-button">Get a Quote</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="section-title fade-in">Our Portfolio</h2>
+            <p class="portfolio-intro fade-in">Take a look at some of our recent work and see how we've helped businesses like yours achieve their goals through professional virtual assistance.</p>
+            
+            <div class="portfolio-grid">
+                <div class="portfolio-item fade-in">
+                    <div class="portfolio-image">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div class="portfolio-content">
+                        <h4>E-commerce Business Growth</h4>
+                        <p>Helped an online retailer increase productivity by 40% through streamlined administrative processes and customer support optimization.</p>
+                        <span class="portfolio-tag">Administrative Support</span>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item fade-in">
+                    <div class="portfolio-image">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <div class="portfolio-content">
+                        <h4>Social Media Campaign Success</h4>
+                        <p>Managed social media campaigns that resulted in 200% follower growth and 150% increase in engagement for a lifestyle brand.</p>
+                        <span class="portfolio-tag">Social Media Management</span>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item fade-in">
+                    <div class="portfolio-image">
+                        <i class="fas fa-file-contract"></i>
+                    </div>
+                    <div class="portfolio-content">
+                        <h4>Professional Documentation</h4>
+                        <p>Created comprehensive business proposals and reports that helped a consulting firm secure 5 new major clients worth $500k+.</p>
+                        <span class="portfolio-tag">Document Creation</span>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item fade-in">
+                    <div class="portfolio-image">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <div class="portfolio-content">
+                        <h4>Data Management System</h4>
+                        <p>Organized and digitized 10,000+ customer records for a healthcare provider, improving data accessibility by 80%.</p>
+                        <span class="portfolio-tag">Data Entry</span>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item fade-in">
+                    <div class="portfolio-image">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                    <div class="portfolio-content">
+                        <h4>Market Research Project</h4>
+                        <p>Conducted comprehensive market analysis that identified new opportunities, leading to a 25% revenue increase for our client.</p>
+                        <span class="portfolio-tag">Research</span>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item fade-in">
+                    <div class="portfolio-image">
+                        <i class="fas fa-phone-alt"></i>
+                    </div>
+                    <div class="portfolio-content">
+                        <h4>Customer Support Excellence</h4>
+                        <p>Implemented customer support system that achieved 98% satisfaction rating and reduced response time by 60% for a tech startup.</p>
+                        <span class="portfolio-tag">Customer Support</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title fade-in">What Our Clients Say</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card fade-in">
+                    <div class="testimonial-content">
+                        <div class="quote-icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <p>"Smart Duo Assist transformed our operations completely. Their attention to detail and professional approach helped us focus on growth while they handled everything else perfectly."</p>
+                        <div class="testimonial-author">
+                            <h4>Sarah Johnson</h4>
+                            <span>CEO, TechStart Solutions</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card fade-in">
+                    <div class="testimonial-content">
+                        <div class="quote-icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <p>"Working with this team has been a game-changer. They're reliable, efficient, and truly understand our business needs. I couldn't imagine running my company without them."</p>
+                        <div class="testimonial-author">
+                            <h4>Michael Chen</h4>
+                            <span>Founder, GrowthLab Marketing</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card fade-in">
+                    <div class="testimonial-content">
+                        <div class="quote-icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <p>"The quality of work and level of professionalism exceeded our expectations. They delivered everything on time and helped streamline our entire workflow."</p>
+                        <div class="testimonial-author">
+                            <h4>Emma Rodriguez</h4>
+                            <span>Operations Manager, Stellar Consulting</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="why-choose-us">
+        <div class="container">
+            <div class="why-choose-header fade-in">
+                <h2>Why Choose Smart Duo Assist?</h2>
+                <p>We're more than just virtual assistants – we're your strategic partners in business growth, committed to your success every step of the way.</p>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-card fade-in">
+                    <div class="feature-icon">
+                        <i class="fas fa-dollar-sign"></i>
+                    </div>
+                    <h3>Affordable Pricing</h3>
+                    <p>Competitive rates without compromising on quality. Get professional virtual assistance that fits your budget and scales with your business growth.</p>
+                </div>
+                
+                <div class="feature-card fade-in">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Reliable & Trustworthy</h3>
+                    <p>Confidentiality guaranteed with signed NDAs. Your business information is secure with our proven track record of discretion and professionalism.</p>
+                </div>
+                
+                <div class="feature-card fade-in">
+                    <div class="feature-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3>Efficient Delivery</h3>
+                    <p>Fast turnaround times and consistent quality. We understand deadlines matter and pride ourselves on delivering exceptional work on time, every time.</p>
+                </div>
+                
+                <div class="feature-card fade-in">
+                    <div class="feature-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <h3>Experienced Team</h3>
+                    <p>Skilled professionals with years of experience across various industries. We bring expertise and best practices to every project we handle.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Get In Touch Section -->
+    <section id="contact" class="get-in-touch">
+        <div class="container">
+            <h2 class="section-title fade-in">Get In Touch</h2>
+            <p class="contact-intro fade-in">Ready to transform your business with professional virtual assistance? We'd love to hear from you and discuss how we can help you achieve your goals.</p>
+            
+            <div class="contact-wrapper">
+                <div class="contact-form-section fade-in">
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <label for="fullName">Full Name *</label>
+                            <input type="text" id="fullName" name="fullName" required>
+                            <span class="error-message" id="nameError"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required>
+                            <span class="error-message" id="emailError"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                            <span class="error-message" id="messageError"></span>
+                        </div>
+                        
+                        <button type="submit" class="submit-button">
+                            <span class="button-text">Send Message</span>
+                            <span class="button-loader" style="display: none;">
+                                <i class="fas fa-spinner fa-spin"></i>
+                            </span>
+                        </button>
+                    </form>
+                </div>
+                
+                <div class="contact-info-section fade-in">
+                    <h3>Contact Information</h3>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p>hello@smartduoassist.com</p>
+                            <p>support@smartduoassist.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-whatsapp"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>WhatsApp</h4>
+                            <p>+1 (555) 123-4567</p>
+                            <p class="contact-sub">Chat with us on WhatsApp</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Business Hours</h4>
+                            <p>Monday - Friday: 9:00 AM - 6:00 PM EST</p>
+                            <p class="contact-sub">Weekend: Emergency support available</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Location</h4>
+                            <p>Remote Team</p>
+                            <p class="contact-sub">Serving clients worldwide</p>
+                        </div>
+                    </div>
+                    
+                    <div class="guarantee-card">
+                        <h4>Quick Response Guarantee</h4>
+                        <p>We respond to all inquiries within 24 hours. For urgent matters, contact us via WhatsApp for immediate assistance.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <div class="logo-icon">SD</div>
+                        <div class="logo-text">
+                            <h3>Smart Duo Assist</h3>
+                            <p>Your trusted partner in virtual assistance. We help small businesses and entrepreneurs achieve their goals through professional, reliable, and efficient virtual support services.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <div class="footer-contact">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>hello@smartduoassist.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+1 (555) 123-4567</span>
+                        </div>
+                        <div class="social-links">
+                            <h5>Follow Us</h5>
+                            <div class="social-icons">
+                                <a href="#" class="social-link">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="#" class="social-link">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="footer-divider"></div>
+                <p>&copy; 2025 Smart Duo Assist. All rights reserved. | Made with ♥ by Xhizo Tech for growing businesses</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Success Modal -->
+    <div id="successModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div class="success-icon">
+                    <i class="fas fa-check-circle"></i>
+                </div>
+                <h3>Message Sent!</h3>
+            </div>
+            <div class="modal-body">
+                <p>Thank you for reaching out to us. We will get back to you within 24 hours.</p>
+            </div>
+            <div class="modal-footer">
+                <button class="modal-close-btn" onclick="closeModal()">Close</button>
+            </div>
+        </div>
+    </div>
+    </body>
+<script src="app.js"></script>
+</html>
