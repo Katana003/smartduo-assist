@@ -906,12 +906,12 @@
         .logo-text h3 {
             font-size: 1.5rem;
             font-weight: 700;
-            color: var(--text-dark);
+            color: #fff;
             margin-bottom: 0.5rem;
         }
 
         .logo-text p {
-            color: var(--text-light);
+            color: #fff;
             line-height: 1.6;
             font-size: 0.95rem;
         }
@@ -920,7 +920,7 @@
             font-size: 1.25rem;
             font-weight: 600;
             margin-bottom: 1.5rem;
-            color: var(--text-dark);
+            color: white;
         }
 
         .footer-links {
@@ -932,7 +932,7 @@
         }
 
         .footer-links a {
-            color: var(--text-light);
+            color: white;
             text-decoration: none;
             transition: color 0.3s ease;
         }
@@ -958,7 +958,7 @@
             font-size: 1rem;
             font-weight: 600;
             margin: 1.5rem 0 1rem;
-            color: var(--text-dark);
+            color: #fff;
         }
 
         .social-icons {
@@ -997,7 +997,7 @@
         }
 
         .footer-bottom p {
-            color: var(--text-light);
+            color: #fff;
             font-size: 0.9rem;
         }
 
