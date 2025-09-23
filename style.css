@@ -247,18 +247,21 @@
         .team-image {
             margin-bottom: 1.5rem;
         }
+                img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center top; /* Adjust this to position the face */
+        }
 
         .team-avatar {
-            width: 120px;
-            height: 120px;
+           width: 240px;
+            height: 240px;
             margin: 0 auto;
             border-radius: 50%;
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 4rem;
-            color: var(--white);
-            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
             position: relative;
             overflow: hidden;
             border: 4px solid var(--white);
@@ -868,8 +871,8 @@
 
         /* Footer */
         .footer {
-            background: #ddd;
-            color: var(--text-dark);
+            background: #887e7e;
+            color: #ffffff;
             padding: 3rem 0 1rem;
         }
 
